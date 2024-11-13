@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { CiLinkedin } from "react-icons/ci";
 import { IoMailOpenOutline } from "react-icons/io5";
 const Footer = () => {
   return (
