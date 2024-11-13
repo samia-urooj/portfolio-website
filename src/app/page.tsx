@@ -3,7 +3,7 @@ import Link from "next/link";
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
+import Image from "next/image";
 export default function Home() {
   useEffect(()=>{
     AOS.init({
@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <div  className="mainDiv">
       <div data-aos="zoom-in" className="imgDiv">
-      <img src="/image/linkpfp2.png"></img></div>
+      <Image src="/image/linkpfp2.png" alt="desc"></Image></div>
       <div className="content">
         <h1>Hi Everyone!<br></br>
           I'm Samia Urooj </h1>
