@@ -19,7 +19,7 @@ export default function Home() {
       <img src="/image/linkpfp2.png" alt="desc"></img></div>
       <div className="content">
         <h1>Hi Everyone!<br></br>
-          I'm Samia Urooj </h1>
+           </h1>
         <p>A passionate designer,developer with a knack for creating impactful digital experiences. With expertise in  web design, front-end development, UX/UI, I bring a blend of creativity and technical know-how to each project. My work reflects a commitment to  user-centered design, innovation and clean code, aiming to deliver results that both look great and function seamlessly. Welcome to my portfolio—explore my projects to see how I turn ideas into reality!</p>
        <button><Link href="/projects"><span className="buttonPro">My Projects</span></Link></button>
       </div>
